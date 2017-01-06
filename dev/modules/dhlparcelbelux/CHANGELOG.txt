@@ -1,0 +1,22 @@
+####################################
+# v1.0.2 - (2016-09-27)
+####################################
+
+- Updated the stripslashes method
+	- classes/models/Order.php:387,533
+	- controllers/admin/AdminOrdersDHL.php:385
+
+- Added a debug method for developers in the request file
+	- classes/Request.php:117
+
+- Added a conditional load of the Google Maps API Javascript file
+	- controllers/front/Lightbox.php
+	- controllers/front/lightbox14.php
+	- views/templates/front/lightbox-dhl.tpl
+
+####################################
+# v1.0.4 - (2016-10-12)
+####################################
+
+- Dynamic loading of Google Maps API to avoid conflict with other modules.
+- New geolocation function to replace the right address in the lightbox on second try.

@@ -1,0 +1,19 @@
+Cher client,
+Merci pour votre commande sur {shop_name}.
+Votre commande sera expédiée par DHL PARCEL. Le numéro de suivi de votre colis sera actif une fois le colis enregistré dans le réseau DHL.
+
+Informations complémentaires :
+
+Date: {date}
+Référence: {reference}
+Numéro(s) d'envois:
+    {tracking_codes_text}
+    
+Adresse de livraison: :
+
+{address_text}
+
+Bien à vous,
+{shop_name}
+
+Ceci est un email automatisé. Merci de ne pas répondre.
